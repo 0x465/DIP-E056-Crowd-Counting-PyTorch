@@ -55,7 +55,9 @@ Update paths ```...input/``` in the following files:
 ```
 
 ### Generate GroundTruth
-Generate groundtruth and density map using ```create_ground_truth.py```.
+ShanghaiTech dataset already includes groundtruth and density map.  
+To generate new files follow steps below (Not necessary! Will take awhile to generate):   
+Generate groundtruth and density map using ```create_ground_truth.py```.  
 
 ### Generate JSON
 JSON files can be created using ```create_json.py``` and will be saved to ROOT/json.
