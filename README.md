@@ -74,7 +74,7 @@ Run ```train.py``` to train the model. Model checkpoints will be saved to ROOT/m
 ```python train.py path_to_train.json path_to_test.json 0 0```
 
 ### Prediction
-Prediction can be done on ShanghaiTech images or a new image using ```predict.py``` (update paths in file accordingly). An density map ```prediction.png``` will be generated and saved to ROOT/.
+Prediction can be done on ShanghaiTech images or a new image using ```predict.py``` (update paths in file accordingly). A density map ```prediction.png``` will be generated and saved to ROOT/.
 
 
 ### References
