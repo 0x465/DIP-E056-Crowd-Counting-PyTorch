@@ -70,7 +70,7 @@ Generate groundtruth and density map using ```python create_ground_truth.py```.
 JSON files can be created using ```python create_json.py``` and will be saved to ROOT/json.
 
 ### Training & Testing
-Run ```python train.py``` to train the model. Model checkpoints will be saved to ROOT/models.  
+Model checkpoints will be saved to ROOT/models.  
 To start training, in command prompt:   
 ```python train.py path_to_train.json path_to_test.json 0 0```
 
