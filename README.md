@@ -17,7 +17,8 @@ Refer to following pages:
 **NOTE**: Part_A includes more dense data and Part_B includes scattered data.
 
 ### Preprocessing Data  
-Download and unzip ShanghaiTech folder into root directory.   
+1. Download/git clone repo.  
+2. Download and unzip ShanghaiTech folder into root directory.   
 Root directory should have the following hierachy:    
 **NOTE**: '*' files will only appear after generation.   
 ```
