@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
         img_list = []
 
-        for img_path in glob.glob(join(path,'*.jpg')):
+        for img_path in glob.glob(os.path.join(path,'*.jpg')):
             img_list.append(img_path)
 
         with open(output_json,'w') as f:
