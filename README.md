@@ -44,7 +44,7 @@ ROOT
 ```
 ### Getting Started
 Please ensure all required libraries is installed.    
-Create 2 new folders: 'json' and 'models'   
+Create 2 new folders in ROOT: 'json' and 'models'   
 Update paths ```...input/``` in the following files:
 ```
 - create_json.py
