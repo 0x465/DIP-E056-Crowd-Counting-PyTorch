@@ -71,6 +71,7 @@ JSON files can be created using ```create_json.py``` and will be saved to ROOT/j
 
 ### Training & Testing
 Run ```train.py``` to train the model. Model checkpoints will be saved to ROOT/models.  
+To start training, in command prompt:   
 ```python train.py path_to_train.json path_to_test.json 0 0```
 
 ### Prediction
