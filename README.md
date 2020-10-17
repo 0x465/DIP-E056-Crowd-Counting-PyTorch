@@ -45,7 +45,7 @@ ROOT
 ### Getting Started
 Please ensure all required libraries is installed.    
 Create 2 new folders: 'json' and 'models'   
-Update paths in the following files:
+Update paths ```...input/``` in the following files:
 ```
 - create_json.py
 - create_ground_truth.py
