@@ -18,7 +18,8 @@ Refer to following pages:
 
 ### Preprocessing Data  
 1. Download/git clone repo.  
-2. Download and unzip ShanghaiTech folder into root directory.   
+2. Download and unzip ShanghaiTech folder into root directory.    
+
 Root directory should have the following hierachy:    
 **NOTE**: '*' files will only appear after generation.   
 ```
