@@ -55,7 +55,7 @@ Update paths ```...input/``` in the following files:
 ```   
 To run .py files:
 1. Navigate to ROOT and copy ROOT path
-2. Open Command Prompt
+2. Open Command Prompt  
 2.1 ```cd ROOT```
 3. run desired .py file using ```python file_to_run.py```
 
