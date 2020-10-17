@@ -57,7 +57,7 @@ To run .py files:
 1. Navigate to ROOT and copy ROOT path
 2. Open Command Prompt  
 2.1 ```cd ROOT```
-3. run desired .py file using ```python file_to_run.py```
+3. in command prompt, type ```python file_to_run.py``` to run desired .py file  
 
 ### Generate GroundTruth
 ShanghaiTech dataset already includes groundtruth and density map.  
