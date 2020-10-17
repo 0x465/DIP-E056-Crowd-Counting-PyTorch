@@ -52,7 +52,12 @@ Update paths ```...input/``` in the following files:
 - predict.py
 - train.py
 - utils.py
-```
+```   
+To run .py files:
+1. Navigate to ROOT and copy ROOT path
+2. Open Command Prompt
+2.1 ```cd ROOT```
+3. run desired .py file using ```python file_to_run.py```
 
 ### Generate GroundTruth
 ShanghaiTech dataset already includes groundtruth and density map.  
@@ -63,7 +68,8 @@ Generate groundtruth and density map using ```create_ground_truth.py```.
 JSON files can be created using ```create_json.py``` and will be saved to ROOT/json.
 
 ### Training & Testing
-Run ```train.py``` to train the model. Model checkpoints will be saved to ROOT/models.
+Run ```train.py``` to train the model. Model checkpoints will be saved to ROOT/models.  
+```python train.py path_to_train.json path_to_test.json 0 0```
 
 ### Prediction
 Prediction can be done on ShanghaiTech images or a new image using ```predict.py``` (update paths in file accordingly). An density map ```prediction.png``` will be generated and saved to ROOT/.
