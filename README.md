@@ -64,18 +64,18 @@ To run .py files:
 ### Generate GroundTruth
 ShanghaiTech dataset already includes groundtruth and density map.  
 To generate new files follow steps below (Not necessary! Will take awhile to generate):   
-Generate groundtruth and density map using ```create_ground_truth.py```.  
+Generate groundtruth and density map using ```python create_ground_truth.py```.  
 
 ### Generate JSON
-JSON files can be created using ```create_json.py``` and will be saved to ROOT/json.
+JSON files can be created using ```python create_json.py``` and will be saved to ROOT/json.
 
 ### Training & Testing
-Run ```train.py``` to train the model. Model checkpoints will be saved to ROOT/models.  
+Run ```python train.py``` to train the model. Model checkpoints will be saved to ROOT/models.  
 To start training, in command prompt:   
 ```python train.py path_to_train.json path_to_test.json 0 0```
 
 ### Prediction
-Prediction can be done on ShanghaiTech images or a new image using ```predict.py``` (update paths in file accordingly). A density map ```prediction.png``` will be generated and saved to ROOT/.
+Prediction can be done on ShanghaiTech images or a new image using ```python predict.py``` (update paths in file accordingly). A density map ```prediction.png``` will be generated and saved to ROOT/.
 
 
 ### References
