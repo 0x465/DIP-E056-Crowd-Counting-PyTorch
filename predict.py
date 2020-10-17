@@ -18,7 +18,7 @@ from torchvision import transforms
 # else if: testing on shanghaitech images
 root = '...input/shanghaitech_with_people_density_map/ShanghaiTech'
 img_path = os.path.join(root, 'part_B/test_data/images', 'IMG_1.jpg')
-h5_path = os.path.join(root, 'part_B/test_data/ground-truth', 'IMG_1.h5')
+h5_path = os.path.join(root, 'part_B/test_data/ground-truth-h5', 'IMG_1.h5')
 
 # Load model with trained weights
 model = CSRNet()
