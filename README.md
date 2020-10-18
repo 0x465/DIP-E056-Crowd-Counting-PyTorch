@@ -7,9 +7,14 @@ Anaconda environment is strongly recommended.
 
 The following libraries was used:
 - Python 3 
-- PyTorch 1.6.0
 - OpenCV 3.4.2
 - CUDA 10.2
+- PyTorch 1.6.0
+- Torchvision
+- Scipy
+- Matplotlib
+- tqdm
+- h5py
 
 ### Dataset
 Refer to following pages:
@@ -75,6 +80,10 @@ To start training, in command prompt:
 ```python train.py path_to_train.json path_to_test.json 0 0```
 
 ### Prediction
+Trained weights (**NOTE**: only 10 epochs, low accuracy):
+[model_best.pth.tar](https://drive.google.com/file/d/1Qe_bd6EOWoZUaP9mtlG2ZysPZ5h6Ufki/view?usp=sharing)
+[checkpoint.pth.tar](https://drive.google.com/file/d/1HOeE5konIgdY0tBShpV4Hb1uKDvQNrK5/view?usp=sharing)
+
 Prediction can be done on ShanghaiTech images or a new image using ```python predict.py``` (update paths in file accordingly). A density map ```prediction.png``` will be generated and saved to ROOT/.
 
 
